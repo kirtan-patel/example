@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="gameover.js"></script>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <title>end</title>
+  </head>
+  <body>
+    <div class="conatiner-fluid border border-2 m-2">
+      <div class="conatiner">
+        <div class="col-md">
+          <p class="h2 font-weight-bold text-center" id="message">
+            Wow, you are already done??? hmmm intresting
+          </p>
+        </div>
+        <div class="container-sm">
+          <p class="bold text-md-left sub-message ">Your average time: <span id="timeTaken"></span></p>
+          <p class="bold text-md-left sub-message">The average reaction time for human should be between 0.2-0.5 seconds while you took
+            <span id="howlong"></span>which is <span id="conclusion"></span>
+        </p>
+        <input type="submit" id="retry" value="Retry" class="btn btn-primary">
+      </div>
+    </div>
+  </body>
+</html>

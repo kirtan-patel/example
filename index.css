@@ -1,0 +1,43 @@
+/* 000863115, kirtankumar patel. This is the the css file for the project */
+body{
+    background-color: #fff0ea;
+}
+#sub{
+    margin-top: 2%;
+    text-align: center;
+}
+#shapeDiv{
+    max-width: 100%;
+}
+.btn-form{
+    text-align: center;
+}
+ #shape {
+
+     width: 200px;
+     height: 200px;
+     background-color: red;
+     display: none;
+     position: relative;
+
+ }
+
+ .bold {
+
+     font-weight: bold;
+     font-size: 25px;
+
+ }
+
+ .head {
+     height: 100px;
+     font-size: 30px;
+     color: blue;
+
+ }
+
+ .para {
+     text-align: center;
+     font-size: 25px;
+     color: pink;
+ }

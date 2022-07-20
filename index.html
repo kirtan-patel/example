@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 000863115, kirtankumar patel, assignment finished on 8th of july 2022
+    This index page ask's the user for the username and a color where all the shape and texted is based on that -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    /><link rel="stylesheet" href="index.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="inndex.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- KirtanKumar, 000863115 finished on 30/6/22. This file is the loading screen where a user will be asked to enter
+    thier username and choose a color for the shapes  -->
+    <title>Assignment4</title>
+  </head>
+  <body class="container-fluid">
+    <div class="col-md">
+        <h1>Welcome to reaction game</h1>
+        <ul>
+            <li>Before playing, kindly enter your:
+                <ul>
+                    <li>Username</li>
+                    <li>Pick a color for your shapes</li>
+                   
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <form action="" method="post">
+      <div class="form-group text-secondary">
+        <label for="username">Username</label>
+        <label for="error" id="error1" class="text-danger d-none">Username can not be blank</label>
+        <input type="text" class="form-control" id="username" name="username" required />
+      </div>
+      <div class="form-group text-secondary">
+        <label for="color">Color</label>
+        <input type="color" class="form-control" id="color" name="color"  />
+      </div>
+      <div class="btn-form">
+
+        <input type="submit" id="btn-validate" onclick=" return getUserInput();" class="btn btn-primary" id="sub" value="Submit">
+          
+      </div>
+  </body>
+</html>
